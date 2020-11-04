@@ -2,8 +2,14 @@ import spark.Spark;
 import spark.Request;
 import spark.Response;
 
-public class RestfulAPI {
-    public RestfulAPI() {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class RestfulServer {
+
+    private final Logger log = LoggerFactory.getLogger(RestfulServer.class);
+
+    public RestfulServer() {
         this.configureRestfulApiServer();
         this.processRestfulApiRequests();
     }
