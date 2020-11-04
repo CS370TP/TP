@@ -6,6 +6,8 @@ Last Name | First Name | CSU eid | GitHub Username | CSU Email
 ----------|------------|---------|-----------------|-----------
 Zhang | Qi | tancle | Kurnk| tancle@rams.colostate.edu
 Zhao | Ming | mingz | mingz628 | mingz@rams.colostate.edu
+Martin | Tucker | tsmartin | tuckermartin1313 | tsmartin@rams.colostate.edu
+
 
 ## Description
 The purpose of our project is to build a simple personal blog. If time permits, I hope it contains a comment function, or it can simply record some of my personal and algorithmic experience. Docker is mainly used to create and deploy some basic things, which is convenient.
@@ -36,8 +38,7 @@ Build & Run:
 * docker run -it tpimage
 <pre><code>To run the teamProject container</code></pre>
 or
-* docker run -it tpimage /bin/bash
-<pre><code>We can access a shell inside a Container</code></pre>
-
+* docker run -it -p 9000:8080 tpimage
+<pre><code>expose the port from sandbox so you can test it with port 9000 in postman</code></pre>
 
 GitHub: https://github.com/CS370TP/TP
