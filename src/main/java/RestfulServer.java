@@ -20,7 +20,8 @@ public class RestfulServer {
     }
 
     private void processRestfulApiRequests(){
-        Spark.post("/", this::echoRequest);
+        Spark.get("/", this::echoRequest);
+        Spark.post("/", this::logRequest);
     }
 
     private String echoRequest(Request request, Response response){
@@ -29,6 +30,11 @@ public class RestfulServer {
         response.status(200);
         System.out.println(request.body());
         return HttpRequestToJson(request);
+    }
+
+    private String logRequest(Request request, Response response){
+        log.info(request.body());
+        return "";
     }
 
     private String HttpRequestToJson(Request request){
