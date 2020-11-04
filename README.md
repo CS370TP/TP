@@ -1,5 +1,5 @@
 # CS370 TermProject
-# Member Information
+## Member Information
 ***
 
 Last Name | First Name | CSU eid | GitHub Username | CSU Email 
