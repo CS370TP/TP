@@ -5,7 +5,7 @@
 Last Name | First Name | CSU eid | GitHub Username | CSU Email 
 ----------|------------|---------|-----------------|-----------
 Zhang | Qi | tancle | Kurnk| tancle@rams.colostate.edu
-Zhao | Ming | mingz | mingz628 |
+Zhao | Ming | mingz | mingz628 | mingz@rams.colostate.edu
 
 ## Description
 The purpose of our project is to build a simple personal blog. If time permits, I hope it contains a comment function, or it can simply record some of my personal and algorithmic experience. Docker is mainly used to create and deploy some basic things, which is convenient.
