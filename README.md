@@ -36,7 +36,7 @@ Build & Run:
 * docker build -t tpimage .
 <pre><code>To build teamProject from Dockerfile.</code></pre>
 * docker run -it tpimage
-<pre><code>To run the teamProject container</code></pre>
+<pre><code>To run the teamProject</code></pre>
 or
 * docker run -it -p 9000:8080 tpimage
 <pre><code>expose the port from sandbox so you can test it with port 9000 in postman</code></pre>
