@@ -10,6 +10,7 @@ Zhao | Ming | mingz | mingz628 |
 ## Description
 The purpose of our project is to build a simple personal blog. If time permits, I hope it contains a comment function, or it can simply record some of my personal and algorithmic experience. Docker is mainly used to create and deploy some basic things, which is convenient.
 
+Method: POST 
 ## Usage
 ### Build:
 * mvn clean
